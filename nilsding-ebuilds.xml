@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+	<name>nilsding-ebuilds</name>
+	<description>nilsding's ebuilds. use with caution</description>
+	<homepage>http://github.com/nilsding/nilsding-ebuilds</homepage>
+	<owner>
+		<name>nilsding</name>
+		<email>nilsding@rout0r.org</email>
+	</owner>
+	<source type="git">git://github.com/nilsding/nilsding-ebuilds.git</source>
+</repo>
+</repositories>
