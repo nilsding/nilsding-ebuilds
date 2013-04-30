@@ -9,6 +9,7 @@ EAPI="4"
 QT_MINIMAL="4.6"
 
 EGIT_REPO_URI="git://github.com/mumble-voip/mumble.git"
+EGIT_HAS_SUBMODULES="A LOT"
 GIT_ECLASS="git-2"
 
 inherit eutils multilib qt4-r2 ${GIT_ECLASS}
