@@ -110,8 +110,8 @@ src_install() {
 
 	insopts -o root -g root -m 0755
 	insinto "/usr/$(get_libdir)/mumble"
-	doins "${dir}"/libmumble.so.1.2.4
-	dosym libmumble.so.1.2.4 /usr/$(get_libdir)/mumble/libmumble.so.1
+	doins "${dir}"/libmumble.so.1.2.5
+	dosym libmumble.so.1.2.5 /usr/$(get_libdir)/mumble/libmumble.so.1
 	doins "${dir}"/libcelt0.so.0.{7,11}.0
 	doins "${dir}"/plugins/lib*.so*
 }
