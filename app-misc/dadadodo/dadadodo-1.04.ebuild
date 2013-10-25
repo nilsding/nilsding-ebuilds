@@ -10,11 +10,13 @@ SRC_URI="http://www.jwz.org/${PN}/${PN}-${PV}.tar.gz"
 
 LICENSE="colt"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="x86 amd64"
 IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
 
-
+src_install() {
+    dobin dadadodo || die "install failed"
+}
 
